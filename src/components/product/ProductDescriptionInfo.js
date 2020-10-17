@@ -26,14 +26,13 @@ const ProductDescriptionInfo = ({
   description,
   setColorSelect,
   colorSelect,
-    productColor,
+  productColor,
+  selectedProductSize,
+  setSelectedProductSize
 }) => {
 
   const [selectedProductColor, setSelectedProductColor] = useState(productColor ||
     product.variation ? product.variation[0].color : ""
-  );
-  const [selectedProductSize, setSelectedProductSize] = useState(
-    product.variation ? product.variation[0].size[0].name : ""
   );
   const [productStock, setProductStock] = useState(
     product.variation ? product.variation[0].size[0].stock : product.stock
@@ -88,7 +87,7 @@ const ProductDescriptionInfo = ({
 						return (
 							// <option value={single.color} sizeName={single.size[0].name} stockProduct={single.size[0].stock}>{single.color}</option>
 							<label
-                                style={{ border: "1px solid #0e0e0e" }}
+              style={{ border: "1px solid #0e0e0e" }}
 							className={`pro-details-color-content--single ${single.color}`}
 							key={key}
 							>
@@ -107,6 +106,9 @@ const ProductDescriptionInfo = ({
 									setProductStock(single.size[0].stock);
                   setQuantityCount(1);
                   setDescriptionSelect(single.size[0].description)
+                  setRealPrice(single.size[0].price);
+                  setSelectedProductSize(single.size[0].name);
+
 								}}
 								/>
 							<span className="checkmark"></span>

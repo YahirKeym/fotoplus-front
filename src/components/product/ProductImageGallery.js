@@ -1,12 +1,11 @@
 import PropTypes from "prop-types";
-import React, { Fragment, useEffect, useState, useRef } from "react";
+import React, { Fragment, useEffect, useRef } from "react";
 import ImageGallery from 'react-image-gallery';
 
-const ProductImageGallery = ({ product, imageSelected, setProductColor,setDescriptionSelect }) => {
+const ProductImageGallery = ({ product,setSelectedProductSize, imageSelected, setProductColor,setDescriptionSelect,setRealPrice }) => {
   const gallerySwiperRef = useRef({});
   const thumbnailSwiperRef = useRef({});
   const imageGalleryRef = useRef(null);
-  
   // effect for swiper slider synchronize
   useEffect(() => {
     const thumbnailSwiper = thumbnailSwiperRef.current.swiper || {};
@@ -69,8 +68,13 @@ const ProductImageGallery = ({ product, imageSelected, setProductColor,setDescri
       const variation = product.variation[index];
       const color = variation ? variation.color : '';
       const description = variation.size[0].description;
+      const price = variation.size[0].price;
+      const size = variation.size[0].name;
+      console.log(variation)
+      setRealPrice(price);
       setProductColor(color);
-      setDescriptionSelect(description)
+      setDescriptionSelect(description);
+      setSelectedProductSize(size)
   }
   return (
     <Fragment>

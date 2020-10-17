@@ -23,8 +23,8 @@ const ProductGridListSingle = ({
   const [modalShow, setModalShow] = useState(false);
   const { addToast } = useToasts();
 
-  const discountedPrice = getDiscountPrice(product.price, product.discount);
-  const finalProductPrice = +(product.price * currency.currencyRate).toFixed(2);
+  const discountedPrice = getDiscountPrice(product.variation[0].size[0].price, product.discount);
+  const finalProductPrice = +(product.variation[0].size[0].price * currency.currencyRate).toFixed(2);
   const finalDiscountedPrice = +(
     discountedPrice * currency.currencyRate
   ).toFixed(2);

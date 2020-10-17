@@ -18,8 +18,8 @@ const ProductImageDescription = ({
   cartItems,
   wishlistItems,
   compareItems,
-                                   descriptionSelect,
-                                   setDescriptionSelect,
+  descriptionSelect,
+  setDescriptionSelect,
 }) => {
   const wishlistItem = wishlistItems.filter(
     wishlistItem => wishlistItem.id === product.id
@@ -27,11 +27,13 @@ const ProductImageDescription = ({
   const compareItem = compareItems.filter(
     compareItem => compareItem.id === product.id
   )[0];
-  const [realPrice,setRealPrice]=useState(product.price);
+  const [realPrice,setRealPrice]=useState(product.variation[0].size[0].price);
+  const [selectedProductSize, setSelectedProductSize] = useState(
+    product.variation ? product.variation[0].size[0].name : ""
+  );
   const { addToast } = useToasts();
   const [colorSelect, setColorSelect] = useState('');
-	// const [descriptionSelect,setDescriptionSelect] = useState('');
-    const [imageSelected,setImageSelected] = useState(''); 
+  const [imageSelected,setImageSelected] = useState(''); 
   const discountedPrice = getDiscountPrice(realPrice, product.discount);
   const finalProductPrice = +(realPrice * currency.currencyRate).toFixed(2);
   const finalDiscountedPrice = +(
@@ -59,16 +61,22 @@ const ProductImageDescription = ({
             ) : galleryType === "fixedImage" ? (
               <ProductImageFixed imageSelected={imageSelected} product={product} />
             ) : (
-              <ProductImageGallery imageSelected={imageSelected} product={product} setProductColor={setProductColor} />
+              <ProductImageGallery 
+              imageSelected={imageSelected} 
+              product={product} 
+              setProductColor={setProductColor} 
+              setDescriptionSelect={setDescriptionSelect}
+              setRealPrice={setRealPrice}
+              setSelectedProductSize={setSelectedProductSize}/>
             )}
           </div>
           <div className="col-lg-6 col-md-6">
             {/* product description info */}
             <ProductDescriptionInfo
               setRealPrice={setRealPrice}
-			  setImageSelected={setImageSelected}
-			  setDescriptionSelect={setDescriptionSelect}
-			  description={descriptionSelect}
+              setImageSelected={setImageSelected}
+              setDescriptionSelect={setDescriptionSelect}
+              description={descriptionSelect}
               product={product}
               discountedPrice={discountedPrice}
               currency={currency}
@@ -81,6 +89,8 @@ const ProductImageDescription = ({
               colorSelect={colorSelect}
               setColorSelect={setColorSelect}
               productColor={productColor}
+              selectedProductSize={selectedProductSize}
+              setSelectedProductSize={setSelectedProductSize}
             />
           </div>
         </div>
