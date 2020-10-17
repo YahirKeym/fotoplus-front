@@ -6,7 +6,6 @@ import { getProductCartQuantity } from "../../helpers/product";
 import { addToCart } from "../../redux/actions/cartActions";
 import { addToWishlist } from "../../redux/actions/wishlistActions";
 import { addToCompare } from "../../redux/actions/compareActions";
-import Rating from "./sub-components/ProductRating";
 
 const ProductDescriptionInfo = ({
   setRealPrice,
@@ -76,18 +75,6 @@ const ProductDescriptionInfo = ({
       </div>
 
       <div className="pro-details-list">
-        {/*<h5>*/}
-        {/*  <b>Nombre del producto: </b>*/}
-        {/*</h5> */}
-        {/*<span>{product.fullDescription}</span>*/}
-				{/*<h5>*/}
-        {/*  <b>Capacidad:</b>*/}
-        {/*</h5>*/}
-		{/*		{product.Capacidad}*/}
-		{/*		<h5>*/}
-        {/*  <b>Código de producto:</b>*/}
-        {/*</h5>*/}
-		{/*		{product.Codigo}*/}
         <p>{Number(description) ? product.fullDescription || '' : description || ''} </p>
                   {/*<span>{colorSelect}</span>*/}
       </div>
@@ -97,14 +84,6 @@ const ProductDescriptionInfo = ({
           <div className="pro-details-color-wrap">
             <span>Color</span>
             <div className="pro-details-color-content">
-				{/* <select onChange={({target})=>{
-					setSelectedProductColor(target.value);
-					let Stock = document.querySelector(`option[value='${target.value}']`).getAttribute('stockProduct');
-					let Size = document.querySelector(`option[value='${target.value}']`).getAttribute('sizeName');
-					setSelectedProductSize(Size);
-					setProductStock(Stock);
-					setQuantityCount(1);
-				}}> */}
 					{product.variation.map((single, key) => {
 						return (
 							// <option value={single.color} sizeName={single.size[0].name} stockProduct={single.size[0].stock}>{single.color}</option>
@@ -127,6 +106,7 @@ const ProductDescriptionInfo = ({
 									setSelectedProductSize(single.size[0].name);
 									setProductStock(single.size[0].stock);
                   setQuantityCount(1);
+                  setDescriptionSelect(single.size[0].description)
 								}}
 								/>
 							<span className="checkmark"></span>
