@@ -1,0 +1,68 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~swiper/css/swiper.css";
+@import "~animate.css/animate.min.css";
+@import "~lightgallery.js/dist/css/lightgallery.css";
+@import "../css/icons.min.css";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+@import "variables";
+@import "helper";
+@import "common";
+@import "preloader";
+@import "header";
+@import "slider";
+@import "support";
+@import "section-title";
+@import "product";
+@import "blog";
+@import "footer";
+@import "banner";
+@import "suscribe";
+@import "about";
+@import "image-slider";
+@import "testimonial";
+@import "brand-logo";
+@import "timers";
+@import "breadcrumb";
+@import "sidebar";
+@import "shop";
+@import "product-details";
+@import "cart";
+@import "compare";
+@import "checkout";
+@import "contact";
+@import "blog-details";
+@import "login-register";
+@import "my-account";
+@import "404";
+
+@media screen and (max-width: 575px) {
+  .copyright .footer-logo img {
+    width: 100px;
+  }
+}
+
+.not-border {
+  transition: unset !important;
+}
+
+.not-border:focus {
+  border: 1px solid #0e0e0e !important;
+}
+
+.not-border:hover {
+  border: 1px solid #0e0e0e !important;
+}
+
+.not-border:foc {
+  border: 1px solid #0e0e0e !important;
+
+}
+
+.image-gallery-thumbnail.active {
+  border: 1px solid #0e0e0e !important;
+}
+
+
+
+

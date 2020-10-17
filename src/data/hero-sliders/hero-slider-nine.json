@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "",
+    "subtitle": "",
+    "image": "/assets/img/slider/Banner_2.jpg"
+  },
+  {
+    "id": 2,
+    "title": "",
+    "subtitle": "",
+    "image": "/assets/img/slider/Banner_3.jpg"
+  },
+  {
+    "id": 3,
+    "title": "",
+    "subtitle": "",
+    "image": "/assets/img/slider/Banner_4.jpg"
+  },
+  {
+    "id": 4,
+    "title": "",
+    "subtitle": "",
+    "image": "/assets/img/slider/Banner_5.jpg"
+  },
+  {
+    "id": 5,
+    "title": "",
+    "subtitle": "",
+    "image": "/assets/img/slider/Banner_6.jpg"
+  },
+  {
+    "id": 6,
+    "title": "",
+    "subtitle": "",
+    "image": "/assets/img/slider/Banner_7.jpg"
+  }
+]

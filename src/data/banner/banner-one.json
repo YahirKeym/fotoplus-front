@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "../../assets/img/banner/banner-2.jpg",
+    "title": "Marcos",
+    "subtitle": "Desde",
+    "price": "S/ 10.00",
+    "link": "/shop/category/Marco"
+  },
+  {
+    "id": 2,
+    "image": "../../assets/img/banner/banner-6.jpg",
+    "title": "Marcos Personalizados",
+    "subtitle": "Desde",
+    "price": "S/ 10.00",
+    "link": "/shop/category/Marcos%20Personalizados"
+  },
+  {
+    "id": 3,
+    "image": "../../assets/img/banner/banner-1.jpg",
+    "title": "Álbums",
+    "subtitle": "Desde",
+    "price": "S/ 10.00",
+    "link": "/shop/category/Album"
+  },
+  {
+    "id": 4,
+    "image": "../../assets/img/banner/banner-4.jpg",
+    "title": "Fotobook",
+    "subtitle": "Desde",
+    "price": "S/ 100.00",
+    "link": "/shop/category/Fotobook"
+  },
+  {
+    "id": 5,
+    "image": "../../assets/img/banner/banner-5.jpg",
+    "title": "Impresiones",
+    "subtitle": "Desde",
+    "price": "S/ 0.89",
+    "link": "/shop/category/Impresiones"
+  },
+  {
+    "id": 6,
+    "image": "../../assets/img/banner/banner-3.jpg",
+    "title": "Fotoregalos",
+    "subtitle": "Desde",
+    "price": "S/ 10.00",
+    "link": "/shop/category/Fotoregalos"
+  }
+]

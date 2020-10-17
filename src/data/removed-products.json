@@ -1,0 +1,45 @@
+[
+  {
+    "color": "Blanco Gaspeado",
+    "image": "/assets/img/product/fashion/Marco52_1.jpg",
+    "size": [
+      {
+        "name": "10x15",
+        "stock": 9999,
+        "price": 15,
+        "description": "Marco 52  10x15 cm."
+      },
+      {
+        "name": "13x18",
+        "stock": 9999,
+        "price": 18,
+        "description": "Marco 52  13x18 cm."
+      },
+      {
+        "name": "15x20",
+        "stock": 9999,
+        "price": 20,
+        "description": "Marco 52  15x20 cm."
+      },
+      {
+        "name": "20x25",
+        "stock": 9999,
+        "price": 25,
+        "description": "Marco 52  20x25 cm."
+      },
+      {
+        "name": "20x30",
+        "stock": 9999,
+        "price": 30,
+        "description": "Marco 52  20x30 cm."
+      },
+      {
+        "name": "30x40",
+        "stock": 9999,
+        "price": 40,
+        "description": "Marco 52  30x40 cm."
+      }
+    ]
+  },
+  "/assets/img/product/fashion/MarcoPB15A_1.jpg"
+]
