@@ -28,7 +28,8 @@ const ProductDescriptionInfo = ({
   colorSelect,
   productColor,
   selectedProductSize,
-  setSelectedProductSize
+  setSelectedProductSize,
+  imageSelected
 }) => {
 
   const [selectedProductColor, setSelectedProductColor] = useState(productColor ||
@@ -37,6 +38,7 @@ const ProductDescriptionInfo = ({
   const [productStock, setProductStock] = useState(
     product.variation ? product.variation[0].size[0].stock : product.stock
   );
+  const [productCode,setProductCode] = useState(product.variation ? product.variation[0].size[0].codigo : product.codigo );
   const [quantityCount, setQuantityCount] = useState(1);
 
   React.useEffect(() => {
@@ -75,7 +77,6 @@ const ProductDescriptionInfo = ({
 
       <div className="pro-details-list">
         <p>{Number(description) ? product.fullDescription || '' : description || ''} </p>
-                  {/*<span>{colorSelect}</span>*/}
       </div>
 
       {product.variation ? (
@@ -85,8 +86,7 @@ const ProductDescriptionInfo = ({
             <div className="pro-details-color-content">
 					{product.variation.map((single, key) => {
 						return (
-							// <option value={single.color} sizeName={single.size[0].name} stockProduct={single.size[0].stock}>{single.color}</option>
-							<label
+      			<label
               style={{ border: "1px solid #0e0e0e" }}
 							className={`pro-details-color-content--single ${single.color}`}
 							key={key}
@@ -108,14 +108,13 @@ const ProductDescriptionInfo = ({
                   setDescriptionSelect(single.size[0].description)
                   setRealPrice(single.size[0].price);
                   setSelectedProductSize(single.size[0].name);
-
+                  setProductCode(single.size[0].codigo)
 								}}
 								/>
 							<span className="checkmark"></span>
 						</label>
 						);
 					})}
-			{/* </select> */}
             </div>
           </div>
           <div className="pro-details-size">
@@ -130,36 +129,17 @@ const ProductDescriptionInfo = ({
 							let Stock = document.querySelector(`option[value='${target.value}']`).getAttribute('stock');
               let Price = document.querySelector(`option[value='${target.value}']`).getAttribute('price');
 							let description = document.querySelector(`option[value='${target.value}']`).getAttribute('description');
+							let codigo = document.querySelector(`option[value='${target.value}']`).getAttribute('codigo');
               setDescriptionSelect(description)
 							setRealPrice(Price)
 							setProductStock(Stock);
-							setQuantityCount(1);
+              setQuantityCount(1);
+              setProductCode(codigo);
 						}}>
 						{single.size.map((singleSize, key) => {
                         return (
-                          <React.Fragment key={key}>
-															
-							<option value={singleSize.name} price={singleSize.price} description={singleSize.description} stock={singleSize.stock}>{singleSize.name}</option>
-                            {/* <label
-                              className={`pro-details-size-content--single`}
-                              key={key}
-                            >
-                              <input
-                                type="radio"
-                                value={singleSize.name}
-                                checked={
-                                  singleSize.name === selectedProductSize
-                                    ? "checked"
-                                    : ""
-                                }
-                                onChange={() => {
-                                  setSelectedProductSize(singleSize.name);
-                                  setProductStock(singleSize.stock);
-                                  setQuantityCount(1);
-                                }}
-                              />
-                              <span className="size-name">{singleSize.name}</span>
-                            </label> */}
+                          <React.Fragment key={key}>			
+							<option value={singleSize.name} price={singleSize.price} codigo={singleSize.codigo} description={singleSize.description} stock={singleSize.stock}>{singleSize.name}</option>
                           </React.Fragment>
                         );
 					  })}
@@ -219,13 +199,19 @@ const ProductDescriptionInfo = ({
             {productStock && productStock > 0 ? (
               <button
                 onClick={() =>
+                {
+                  let newProduct = {...product,
+                  Codigo: productCode,
+                  description,
+                  image: imageSelected
+                }
                   addToCart(
-                    product,
+                    newProduct,
                     addToast,
                     quantityCount,
                     selectedProductColor,
                     selectedProductSize
-                  )
+                  )}
                 }
                 disabled={productCartQty >= productStock}
               >
@@ -302,36 +288,6 @@ const ProductDescriptionInfo = ({
       ) : (
         ""
       )}
-
-      	{/* <div className="pro-details-social">
-        	<ul>
-          		<li>
-					<a href="//facebook.com">
-						<i className="fa fa-facebook" />
-					</a>
-          		</li>
-				<li>
-					<a href="//dribbble.com">
-						<i className="fa fa-dribbble" />
-					</a>
-				</li>
-				<li>
-					<a href="//pinterest.com">
-						<i className="fa fa-pinterest-p" />
-					</a>
-				</li>
-				<li>
-					<a href="//twitter.com">
-						<i className="fa fa-twitter" />
-					</a>
-				</li>
-				<li>
-					<a href="//linkedin.com">
-						<i className="fa fa-linkedin" />
-					</a>
-				</li>
-        	</ul>
-      	</div> */}
     </div>
   );
 };

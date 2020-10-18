@@ -32,8 +32,8 @@ const ProductImageDescription = ({
     product.variation ? product.variation[0].size[0].name : ""
   );
   const { addToast } = useToasts();
-  const [colorSelect, setColorSelect] = useState('');
-  const [imageSelected,setImageSelected] = useState(''); 
+  const [colorSelect, setColorSelect] = useState(product.variation ? product.variation[0].color : "");
+  const [imageSelected,setImageSelected] = useState(product.variation ? product.variation[0].image: ""); 
   const discountedPrice = getDiscountPrice(realPrice, product.discount);
   const finalProductPrice = realPrice;
   const finalDiscountedPrice = +(
@@ -91,6 +91,7 @@ const ProductImageDescription = ({
               productColor={productColor}
               selectedProductSize={selectedProductSize}
               setSelectedProductSize={setSelectedProductSize}
+              imageSelected={imageSelected}
             />
           </div>
         </div>
