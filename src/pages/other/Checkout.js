@@ -17,7 +17,7 @@ let initialData = {
 	name:'',
 	lastname:'',
 	enterprise:'',
-	country:'',
+	country:'Peru',
 	addressExt:'',
 	addressInt:'',
 	city:'',
@@ -129,18 +129,9 @@ const Checkout = ({ location, cartItems, currency,deleteAllFromCart }) => {
                         				</div>
                       				</div>
                       				<div className="col-lg-12">
-                        				<div className="billing-info mb-20">
-                          					<label>Empresa</label>
-                          					<input type="text" name='enterprise' onChange={(e)=>{changeInformation(e,setDataUser,dataUser)}}/>
-                        				</div>
-                      				</div>
-                      				<div className="col-lg-12">
                         				<div className="billing-select mb-20">
                           					<label>Pais</label>
-                          					<select name='country' onChange={(e)=>{changeInformation(e,setDataUser,dataUser)}}>
-                            					<option>Seleccione un país</option>
-                            					<option>Perú</option>
-                          					</select>
+                          					<p>Perú</p>
                         				</div>
                       				</div>
                       				<div className="col-lg-12">
@@ -163,7 +154,7 @@ const Checkout = ({ location, cartItems, currency,deleteAllFromCart }) => {
                       			</div>
                       			<div className="col-lg-12">
                         			<div className="billing-info mb-20">
-										<label>Ciudad</label>
+										<label>Distrito</label>
 										<input type="text" name='city' onChange={(e)=>{changeInformation(e,setDataUser,dataUser)}}/>
                         			</div>
                       			</div>
@@ -260,6 +251,7 @@ const Checkout = ({ location, cartItems, currency,deleteAllFromCart }) => {
 									<div className="your-order-middle">
 										<ul>
 											{cartItems.map((cartItem, key) => {
+												console.log(cartItems)
 											const discountedPrice = getDiscountPrice(
 												cartItem.price,
 												cartItem.discount
@@ -279,7 +271,7 @@ const Checkout = ({ location, cartItems, currency,deleteAllFromCart }) => {
 											return (
 												<li key={key}>
 													<span className="order-middle-left">
-														{cartItem.name} X {cartItem.quantity}
+														{cartItem.fullDescription} X {cartItem.quantity}
 													</span>{" "}
 													<span className="order-price">
 														{discountedPrice !== null
@@ -298,12 +290,6 @@ const Checkout = ({ location, cartItems, currency,deleteAllFromCart }) => {
 											})}
 										</ul>
 									</div>
-                       				<div className="your-order-bottom">
-										<ul>
-											<li className="your-order-shipping">Envio</li>
-											<li>Envio Libre</li>
-										</ul>
-                        			</div>
 									<div className="your-order-total">
 										<ul>
 											<li className="order-total">Total</li>
