@@ -70,7 +70,6 @@ const Cart = ({
                         </thead>
                         <tbody>
                           {cartItems.map((cartItem, key) => {
-                            console.log(cartItem)
                             const variation = cartItem.variation.find( item => item.color.toLowerCase() === cartItem.selectedProductColor.toLowerCase());
                             const image = variation.image || cartItem.image[0];
                             const discountedPrice = getDiscountPrice(

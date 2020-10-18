@@ -73,7 +73,6 @@ function sendData(dataUser = initialData,items=[],deleteAllFromCart= ()=>{},addT
 			addToast("Hubo un error al enviar el correo", { appearance: "warning", autoDismiss: true });
 			alert("Hubo un error al enviar los productos")
 			setLoading(false);
-			console.log(err);
 		})
 	}else{
 		alert("Necesitas ingresar rellenar todos los campos")
@@ -245,7 +244,6 @@ const Checkout = ({ location, cartItems, currency,deleteAllFromCart }) => {
 									<div className="your-order-middle">
 										<ul>
 											{cartItems.map((cartItem, key) => {
-												console.log(cartItems)
 											const discountedPrice = getDiscountPrice(
 												cartItem.price,
 												cartItem.discount
