@@ -17,6 +17,7 @@ import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 
 const Cart = ({
+  history,
   location,
   cartItems,
   currency,
@@ -69,6 +70,8 @@ const Cart = ({
                         </thead>
                         <tbody>
                           {cartItems.map((cartItem, key) => {
+                            const variation = cartItem.variation.find( item => item.color.toLowerCase() === cartItem.selectedProductColor.toLowerCase());
+                            const image = variation.image || cartItem.image[0];
                             const discountedPrice = getDiscountPrice(
                               cartItem.price,
                               cartItem.discount
@@ -99,7 +102,7 @@ const Cart = ({
                                       className="img-fluid"
                                       src={
                                         process.env.PUBLIC_URL +
-                                        cartItem.image[0]
+                                        image
                                       }
                                       alt=""
                                     />
@@ -224,11 +227,11 @@ const Cart = ({
                   <div className="col-lg-12">
                     <div className="cart-shiping-update-wrapper">
                       <div className="cart-shiping-update">
-                        <Link
-                          to={process.env.PUBLIC_URL + "/shop"}
+                        <a
+                          onClick={()=>{history.goBack()}}
                         >
                           Continuar Comprando
-                        </Link>
+                        </a>
                       </div>
                       <div className="cart-clear">
                         <button onClick={() => deleteAllFromCart(addToast)}>
