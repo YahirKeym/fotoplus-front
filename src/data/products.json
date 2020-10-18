@@ -3538,7 +3538,7 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07601",
-            "description": "Marco 154-A, 10x15 cm., Madera"
+            "description": "Marco 154-A, 10x15 cm., Caoba, Madera"
           },
           {
             "name": "15x20",
@@ -3558,7 +3558,7 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07601",
-            "description": "Marco 154-A, 10x15 cm., Madera"
+            "description": "Marco 154-A, 10x15 cm., Marron, Madera"
           },
           {
             "name": "15x20",
@@ -3594,7 +3594,7 @@
     "tag": ["Marco"],
     "variation": [
       {
-        "color": "Madera",
+        "color": "Crema",
         "image": "/assets/img/product/fashion/Marco7734_5.jpg",
         "size": [
           {
@@ -3602,21 +3602,21 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07615",
-            "description": "Marco 7734-5, 10x15 cm., MDF"
+            "description": "Marco 7734-5, 10x15 cm., Crema, MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07616",
-            "description": "Marco 7734-5, 15x20 cm., MDF"
+            "description": "Marco 7734-5, 15x20 cm., Crema, MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 30 ,
             "codigo": "07617",
-            "description": "Marco 7734-5, 20x25 cm., MDF"
+            "description": "Marco 7734-5, 20x25 cm., Crema, MDF"
           }
         ]
       }
@@ -3652,28 +3652,28 @@
             "stock": 9999,
             "price": 17,
             "codigo": "07696",
-            "description": "Marco 80 , 13x18 cm., MDF"
+            "description": "Marco 80 , Beige, 13x18 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07698",
-            "description": "Marco 80 , 20x25 cm., MDF"
+            "description": "Marco 80 , Beige,20x25 cm., MDF"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30 ,
             "codigo": "07699",
-            "description": "Marco 80 , 20x30 cm., MDF"
+            "description": "Marco 80 , Beige,20x30 cm., MDF"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 40 ,
             "codigo": "07700",
-            "description": "Marco 80 , 30x40 cm., MDF"
+            "description": "Marco 80 , Beige, 30x40 cm., MDF"
           }
         ]
       },
@@ -3686,28 +3686,28 @@
             "stock": 9999,
             "price": 17,
             "codigo": "07696",
-            "description": "Marco 80 , 13x18 cm., MDF"
+            "description": "Marco 80 , Marron, 13x18 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07698",
-            "description": "Marco 80 , 20x25 cm., MDF"
+            "description": "Marco 80 , Marron, 20x25 cm., MDF"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30 ,
             "codigo": "07699",
-            "description": "Marco 80 , 20x30 cm., MDF"
+            "description": "Marco 80 , Marron, 20x30 cm., MDF"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 40 ,
             "codigo": "07700",
-            "description": "Marco 80 , 30x40 cm., MDF"
+            "description": "Marco 80 , Marron, 30x40 cm., MDF"
           }
         ]
       },
@@ -3720,28 +3720,28 @@
             "stock": 9999,
             "price": 17,
             "codigo": "07696",
-            "description": "Marco 80 , 13x18 cm., MDF"
+            "description": "Marco 80 , Caoba, 13x18 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07698",
-            "description": "Marco 80 , 20x25 cm., MDF"
+            "description": "Marco 80 , Caoba, 20x25 cm., MDF"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30 ,
             "codigo": "07699",
-            "description": "Marco 80 , 20x30 cm., MDF"
+            "description": "Marco 80 , Caoba, 20x30 cm., MDF"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 40 ,
             "codigo": "07700",
-            "description": "Marco 80 , 30x40 cm., MDF"
+            "description": "Marco 80 , Caoba, 30x40 cm., MDF"
           }
         ]
       }
@@ -3779,7 +3779,7 @@
             "stock": 9999,
             "price": 40,
             "codigo": "07688",
-            "description": "Marco 80 , 13x18 cm., MDF"
+            "description": "Marco 80 , Cedro, 13x18 cm., MDF"
           }
         ]
       },
@@ -3792,7 +3792,7 @@
             "stock": 9999,
             "price": 40,
             "codigo": "07688",
-            "description": "Marco 80 , 13x18 cm., MDF"
+            "description": "Marco 80 , Caoba 13x18 cm., MDF"
           }
         ]
       },
@@ -3805,7 +3805,7 @@
             "stock": 9999,
             "price": 40,
             "codigo": "07688",
-            "description": "Marco 80 , 13x18 cm., MDF"
+            "description": "Marco 80 , Blanco, 13x18 cm., MDF"
           }
         ]
       }
@@ -3908,14 +3908,14 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07820",
-            "description": "Marco HW002, 10x15 cm., MDF"
+            "description": "Marco HW002, Gris, 10x15 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07822",
-            "description": "Marco HW002, 15x20 cm., MDF"
+            "description": "Marco HW002, Gris, 15x20 cm., MDF"
           }
         ]
       },
@@ -3928,14 +3928,14 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07820",
-            "description": "Marco HW002, 10x15 cm., MDF"
+            "description": "Marco HW002, Marron, 10x15 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07822",
-            "description": "Marco HW002, 15x20 cm., MDF"
+            "description": "Marco HW002, Marron, 15x20 cm., MDF"
           }
         ]
       },
@@ -3948,14 +3948,14 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07820",
-            "description": "Marco HW002, 10x15 cm., MDF"
+            "description": "Marco HW002, Caoba, 10x15 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07822",
-            "description": "Marco HW002, 15x20 cm., MDF"
+            "description": "Marco HW002, Caoba, 15x20 cm., MDF"
           }
         ]
       }
@@ -3993,7 +3993,7 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07830",
-            "description": "Marco HW022, 10x15 cm., MDF"
+            "description": "Marco HW022, Beige, 10x15 cm., MDF"
           }
         ]
       },
@@ -4006,7 +4006,7 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07830",
-            "description": "Marco HW022, 10x15 cm., MDF"
+            "description": "Marco HW022, Marron, 10x15 cm., MDF"
           }
         ]
       }
@@ -4045,14 +4045,14 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07826",
-            "description": "Marco HW025, 10x15 cm., MDF"
+            "description": "Marco HW025, Beige, 10x15 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 30,
             "codigo": "07829",
-            "description": "Marco HW025, 20x25 cm., MDF"
+            "description": "Marco HW025, Beige, 20x25 cm., MDF"
           }
         ]
       },
@@ -4065,14 +4065,14 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07826",
-            "description": "Marco HW025, 10x15 cm., MDF"
+            "description": "Marco HW025, Marron, 10x15 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 30,
             "codigo": "07829",
-            "description": "Marco HW025, 20x25 cm., MDF"
+            "description": "Marco HW025, Marron, 20x25 cm., MDF"
           }
         ]
       },
@@ -4085,14 +4085,14 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07826",
-            "description": "Marco HW025, 10x15 cm., MDF"
+            "description": "Marco HW025, Cedro, 10x15 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 30,
             "codigo": "07829",
-            "description": "Marco HW025, 20x25 cm., MDF"
+            "description": "Marco HW025, Cedro, 20x25 cm., MDF"
           }
         ]
       }
@@ -4131,28 +4131,28 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07656",
-            "description": "Marco HW-028, 10x15 cm., MDF"
+            "description": "Marco HW-028, Beige, 10x15 cm., MDF"
           },
           {
             "name": "13x18",
             "stock": 9999,
             "price": 18,
             "codigo": "07657",
-            "description": "Marco HW-028, 13x18 cm., MDF"
+            "description": "Marco HW-028, Beige, 13x18 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07658",
-            "description": "Marco HW-028, 15x20 cm., MDF"
+            "description": "Marco HW-028, Beige, 15x20 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07659",
-            "description": "Marco HW-028, 20x25 cm., MDF"
+            "description": "Marco HW-028, Beige, 20x25 cm., MDF"
           }
         ]
       },
@@ -4165,21 +4165,21 @@
             "stock": 9999,
             "price": 18,
             "codigo": "07657",
-            "description": "Marco HW-028, 13x18 cm., MDF"
+            "description": "Marco HW-028, Marron, 13x18 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07658",
-            "description": "Marco HW-028, 15x20 cm., MDF"
+            "description": "Marco HW-028, Marron, 15x20 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07659",
-            "description": "Marco HW-028, 20x25 cm., MDF"
+            "description": "Marco HW-028, Marron, 20x25 cm., MDF"
           }
         ]
       },
@@ -4192,21 +4192,21 @@
             "stock": 9999,
             "price": 18,
             "codigo": "07657",
-            "description": "Marco HW-028, 13x18 cm., MDF"
+            "description": "Marco HW-028, Cedro, 13x18 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07658",
-            "description": "Marco HW-028, 15x20 cm., MDF"
+            "description": "Marco HW-028, Cedro, 15x20 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07659",
-            "description": "Marco HW-028, 20x25 cm., MDF"
+            "description": "Marco HW-028, Cedro, 20x25 cm., MDF"
           }
         ]
       }
@@ -4246,35 +4246,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07971",
-            "description": "Marco PB-01, 10x15 cm., Plastico"
+            "description": "Marco PB-01, Verde, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07972",
-            "description": "Marco PB-01, 15x20 cm., Plastico"
+            "description": "Marco PB-01, Verde, Verde, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 35,
             "codigo": "07973",
-            "description": "Marco PB-01, 20x30 cm., Plastico"
+            "description": "Marco PB-01, Verde, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07974",
-            "description": "Marco PB-01, 30x40 cm., Plastico"
+            "description": "Marco PB-01, Verde, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07975",
-            "description": "Marco PB-01, 40x50 cm., Plastico"
+            "description": "Marco PB-01, Verde, 40x50 cm., Plastico"
           }
         ]
       },
@@ -4287,35 +4287,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07971",
-            "description": "Marco PB-01, 10x15 cm., Plastico"
+            "description": "Marco PB-01, Blanco, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07972",
-            "description": "Marco PB-01, 15x20 cm., Plastico"
+            "description": "Marco PB-01, Blanco, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 35,
             "codigo": "07973",
-            "description": "Marco PB-01, 20x30 cm., Plastico"
+            "description": "Marco PB-01, Blanco, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07974",
-            "description": "Marco PB-01, 30x40 cm., Plastico"
+            "description": "Marco PB-01, Blanco, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07975",
-            "description": "Marco PB-01, 40x50 cm., Plastico"
+            "description": "Marco PB-01, Blanco, 40x50 cm., Plastico"
           }
         ]
       }
@@ -4354,35 +4354,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07911",
-            "description": "Marco PB-04, 10x15 cm., Plastico"
+            "description": "Marco PB-04, Crema, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07912",
-            "description": "Marco PB-04, 15x20 cm., Plastico"
+            "description": "Marco PB-04, Crema, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30,
             "codigo": "07913",
-            "description": "Marco PB-04, 20x30 cm., Plastico"
+            "description": "Marco PB-04, Crema, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 40,
             "codigo": "07914",
-            "description": "Marco PB-04, 30x40 cm., Plastico"
+            "description": "Marco PB-04, Crema, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07915",
-            "description": "Marco PB-04, 40x50 cm., Plastico"
+            "description": "Marco PB-04, Crema, 40x50 cm., Plastico"
           }
         ]
       },
@@ -4395,35 +4395,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07911",
-            "description": "Marco PB-04, 10x15 cm., Plastico"
+            "description": "Marco PB-04, Beige, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07912",
-            "description": "Marco PB-04, 15x20 cm., Plastico"
+            "description": "Marco PB-04, Beige, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30,
             "codigo": "07913",
-            "description": "Marco PB-04, 20x30 cm., Plastico"
+            "description": "Marco PB-04, Beige, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 40,
             "codigo": "07914",
-            "description": "Marco PB-04, 30x40 cm., Plastico"
+            "description": "Marco PB-04, Beige, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07915",
-            "description": "Marco PB-04, 40x50 cm., Plastico"
+            "description": "Marco PB-04, Beige, 40x50 cm., Plastico"
           }
         ]
       }
@@ -4462,35 +4462,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07901",
-            "description": "Marco PB-15, 10x15 cm., Plastico"
+            "description": "Marco PB-15, Caoba, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07902",
-            "description": "Marco PB-15, 15x20 cm., Plastico"
+            "description": "Marco PB-15, Caoba, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 35,
             "codigo": "07903",
-            "description": "Marco PB-15, 20x30 cm., Plastico"
+            "description": "Marco PB-15, Caoba, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07904",
-            "description": "Marco PB-15, 30x40 cm., Plastico"
+            "description": "Marco PB-15, Caoba, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07905",
-            "description": "Marco PB-15, 40X50 cm., Plastico"
+            "description": "Marco PB-15, Caoba, 40X50 cm., Plastico"
           }
         ]
       },
@@ -4503,35 +4503,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07901",
-            "description": "Marco PB-15, 10x15 cm., Plastico"
+            "description": "Marco PB-15, Cedro, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07902",
-            "description": "Marco PB-15, 15x20 cm., Plastico"
+            "description": "Marco PB-15, Cedro, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 35,
             "codigo": "07903",
-            "description": "Marco PB-15, 20x30 cm., Plastico"
+            "description": "Marco PB-15, Cedro, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07904",
-            "description": "Marco PB-15, 30x40 cm., Plastico"
+            "description": "Marco PB-15, Cedro, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07905",
-            "description": "Marco PB-15, 40X50 cm., Plastico"
+            "description": "Marco PB-15, Cedro, 40X50 cm., Plastico"
           }
         ]
       },
@@ -4544,35 +4544,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07901",
-            "description": "Marco PB-15, 10x15 cm., Plastico"
+            "description": "Marco PB-15, Crema, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07902",
-            "description": "Marco PB-15, 15x20 cm., Plastico"
+            "description": "Marco PB-15, Crema, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 35,
             "codigo": "07903",
-            "description": "Marco PB-15, 20x30 cm., Plastico"
+            "description": "Marco PB-15, Crema, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07904",
-            "description": "Marco PB-15, 30x40 cm., Plastico"
+            "description": "Marco PB-15, Crema, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07905",
-            "description": "Marco PB-15, 40X50 cm., Plastico"
+            "description": "Marco PB-15, Crema, 40X50 cm., Plastico"
           }
         ]
       }
@@ -4612,35 +4612,35 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07966",
-            "description": "Marco PB-19, 10x15 cm., Plastico"
+            "description": "Marco PB-19, Crema, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07967",
-            "description": "Marco PB-19, 15x20 cm., Plastico"
+            "description": "Marco PB-19, Crema, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07968",
-            "description": "Marco PB-19, 20x30 cm., Plastico"
+            "description": "Marco PB-19, Crema, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07969",
-            "description": "Marco PB-19, 30x40 cm., Plastico"
+            "description": "Marco PB-19, Crema, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07970",
-            "description": "Marco PB-19, 40x50 cm., Plastico"
+            "description": "Marco PB-19, Crema, 40x50 cm., Plastico"
           }
         ]
       },
@@ -4653,35 +4653,35 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07966",
-            "description": "Marco PB-19, 10x15 cm., Plastico"
+            "description": "Marco PB-19, Blanco, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07967",
-            "description": "Marco PB-19, 15x20 cm., Plastico"
+            "description": "Marco PB-19, Blanco, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07968",
-            "description": "Marco PB-19, 20x30 cm., Plastico"
+            "description": "Marco PB-19, Blanco, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07969",
-            "description": "Marco PB-19, 30x40 cm., Plastico"
+            "description": "Marco PB-19, Blanco, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07970",
-            "description": "Marco PB-19, 40x50 cm., Plastico"
+            "description": "Marco PB-19, Blanco, 40x50 cm., Plastico"
           }
         ]
       }
@@ -4713,165 +4713,165 @@
     "variation": [
       {
         "color": "Blanco",
-        "image": "/assets/img/product/fashion/MarcoPB19_1.jpg",
+        "image": "/assets/img/product/fashion/MarcoPB39_1.jpg",
         "size": [
           {
             "name": "10x15",
             "stock": 9999,
             "price": 20,
             "codigo": "07921",
-            "description": "Marco PB-39, 10x15 cm., Plastico"
+            "description": "Marco PB-39, Blanco, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07922",
-            "description": "Marco PB-39, 15x20 cm., Plastico"
+            "description": "Marco PB-39, Blanco, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07923",
-            "description": "Marco PB-39, 20x30 cm., Plastico"
+            "description": "Marco PB-39, Blanco, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07924",
-            "description": "Marco PB-39, 30x40 cm., Plastico"
+            "description": "Marco PB-39, Blanco, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07925",
-            "description": "Marco PB-39, 40x50 cm., Plastico"
+            "description": "Marco PB-39, Blanco, 40x50 cm., Plastico"
           }
         ]
       },
       {
         "color": "Crema",
-        "image": "/assets/img/product/fashion/MarcoPB19_1.jpg",
+        "image": "/assets/img/product/fashion/MarcoPB39_2.jpg",
         "size": [
           {
             "name": "10x15",
             "stock": 9999,
             "price": 20,
             "codigo": "07921",
-            "description": "Marco PB-39, 10x15 cm., Plastico"
+            "description": "Marco PB-39, Crema, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07922",
-            "description": "Marco PB-39, 15x20 cm., Plastico"
+            "description": "Marco PB-39, Crema, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07923",
-            "description": "Marco PB-39, 20x30 cm., Plastico"
+            "description": "Marco PB-39, Crema, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07924",
-            "description": "Marco PB-39, 30x40 cm., Plastico"
+            "description": "Marco PB-39, Crema, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07925",
-            "description": "Marco PB-39, 40x50 cm., Plastico"
+            "description": "Marco PB-39, Crema, 40x50 cm., Plastico"
           }
         ]
       },
       {
         "color": "Dorado",
-        "image": "/assets/img/product/fashion/MarcoPB19_1.jpg",
+        "image": "/assets/img/product/fashion/MarcoPB39_3.jpg",
         "size": [
           {
             "name": "10x15",
             "stock": 9999,
             "price": 20,
             "codigo": "07921",
-            "description": "Marco PB-39, 10x15 cm., Plastico"
+            "description": "Marco PB-39, Dorado, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07922",
-            "description": "Marco PB-39, 15x20 cm., Plastico"
+            "description": "Marco PB-39, Dorado, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07923",
-            "description": "Marco PB-39, 20x30 cm., Plastico"
+            "description": "Marco PB-39, Dorado, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07924",
-            "description": "Marco PB-39, 30x40 cm., Plastico"
+            "description": "Marco PB-39, Dorado, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07925",
-            "description": "Marco PB-39, 40x50 cm., Plastico"
+            "description": "Marco PB-39, Dorado, 40x50 cm., Plastico"
           }
         ]
       },
       {
         "color": "Gris",
-        "image": "/assets/img/product/fashion/MarcoPB19_1.jpg",
+        "image": "/assets/img/product/fashion/MarcoPB39_4.jpg",
         "size": [
           {
             "name": "10x15",
             "stock": 9999,
             "price": 20,
             "codigo": "07921",
-            "description": "Marco PB-39, 10x15 cm., Plastico"
+            "description": "Marco PB-39, Gris, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07922",
-            "description": "Marco PB-39, 15x20 cm., Plastico"
+            "description": "Marco PB-39, Gris, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07923",
-            "description": "Marco PB-39, 20x30 cm., Plastico"
+            "description": "Marco PB-39, Gris, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07924",
-            "description": "Marco PB-39, 30x40 cm., Plastico"
+            "description": "Marco PB-39, Gris, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07925",
-            "description": "Marco PB-39, 40x50 cm., Plastico"
+            "description": "Marco PB-39, Gris, 40x50 cm., Plastico"
           }
         ]
       }
@@ -4912,35 +4912,35 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07937",
-            "description": "Marco PB-53, 10x15 cm., Plastico"
+            "description": "Marco PB-53, Cedro, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07938",
-            "description": "Marco PB-53, 15x20 cm., Plastico"
+            "description": "Marco PB-53, Cedro, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07939",
-            "description": "Marco PB-53, 20x30 cm., Plastico"
+            "description": "Marco PB-53, Cedro, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07940",
-            "description": "Marco PB-53, 30x40 cm., Plastico"
+            "description": "Marco PB-53, Cedro, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07945",
-            "description": "Marco PB-53, 40x50 cm., Plastico"
+            "description": "Marco PB-53, Cedro, 40x50 cm., Plastico"
           }
         ]
       },
@@ -4953,35 +4953,35 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07937",
-            "description": "Marco PB-53, 10x15 cm., Plastico"
+            "description": "Marco PB-53, Marron, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07938",
-            "description": "Marco PB-53, 15x20 cm., Plastico"
+            "description": "Marco PB-53, Marron, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07939",
-            "description": "Marco PB-53, 20x30 cm., Plastico"
+            "description": "Marco PB-53, Marron, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07940",
-            "description": "Marco PB-53, 30x40 cm., Plastico"
+            "description": "Marco PB-53, Marron, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07945",
-            "description": "Marco PB-53, 40x50 cm., Plastico"
+            "description": "Marco PB-53, Marron, 40x50 cm., Plastico"
           }
         ]
       },
@@ -4994,35 +4994,35 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07937",
-            "description": "Marco PB-53, 10x15 cm., Plastico"
+            "description": "Marco PB-53, Negro, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07938",
-            "description": "Marco PB-53, 15x20 cm., Plastico"
+            "description": "Marco PB-53, Negro, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07939",
-            "description": "Marco PB-53, 20x30 cm., Plastico"
+            "description": "Marco PB-53, Negro, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07940",
-            "description": "Marco PB-53, 30x40 cm., Plastico"
+            "description": "Marco PB-53, Negro, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07945",
-            "description": "Marco PB-53, 40x50 cm., Plastico"
+            "description": "Marco PB-53, Negro, 40x50 cm., Plastico"
           }
         ]
       },
@@ -5035,35 +5035,35 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07937",
-            "description": "Marco PB-53, 10x15 cm., Plastico"
+            "description": "Marco PB-53, Gris, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 25,
             "codigo": "07938",
-            "description": "Marco PB-53, 15x20 cm., Plastico"
+            "description": "Marco PB-53, Gris, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07939",
-            "description": "Marco PB-53, 20x30 cm., Plastico"
+            "description": "Marco PB-53, Gris, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07940",
-            "description": "Marco PB-53, 30x40 cm., Plastico"
+            "description": "Marco PB-53, Gris, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07945",
-            "description": "Marco PB-53, 40x50 cm., Plastico"
+            "description": "Marco PB-53, Gris, 40x50 cm., Plastico"
           }
         ]
       }
@@ -5102,35 +5102,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07976",
-            "description": "Marco PB-72, 10x15 cm., Plastico"
+            "description": "Marco PB-72, Cafe, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07977",
-            "description": "Marco PB-72, 15x20 cm., Plastico"
+            "description": "Marco PB-72, Cafe, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07978",
-            "description": "Marco PB-72, 20x30 cm., Plastico"
+            "description": "Marco PB-72, Cafe, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07979",
-            "description": "Marco PB-72, 30x40 cm., Plastico"
+            "description": "Marco PB-72, Cafe, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 65,
             "codigo": "07980",
-            "description": "Marco PB-72, 40x50 cm., Plastico"
+            "description": "Marco PB-72, Cafe, 40x50 cm., Plastico"
           }
         ]
       }     
@@ -5167,35 +5167,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07953",
-            "description": "Marco PB-73, 10x15 cm., Plastico"
+            "description": "Marco PB-73, Caoba, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07954",
-            "description": "Marco PB-73, 15x20 cm., Plastico"
+            "description": "Marco PB-73, Caoba, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07955",
-            "description": "Marco PB-73, 20x30 cm., Plastico"
+            "description": "Marco PB-73, Caoba, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07956",
-            "description": "Marco PB-73, 30x40 cm., Plastico"
+            "description": "Marco PB-73, Caoba, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 50,
             "codigo": "07957",
-            "description": "Marco PB-73, 40x50 cm., Plastico"
+            "description": "Marco PB-73, Caoba, 40x50 cm., Plastico"
           }
         ]
       },
@@ -5208,35 +5208,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07953",
-            "description": "Marco PB-73, 10x15 cm., Plastico"
+            "description": "Marco PB-73, Crema, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07954",
-            "description": "Marco PB-73, 15x20 cm., Plastico"
+            "description": "Marco PB-73, Crema, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07955",
-            "description": "Marco PB-73, 20x30 cm., Plastico"
+            "description": "Marco PB-73, Crema, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07956",
-            "description": "Marco PB-73, 30x40 cm., Plastico"
+            "description": "Marco PB-73, Crema, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 50,
             "codigo": "07957",
-            "description": "Marco PB-73, 40x50 cm., Plastico"
+            "description": "Marco PB-73, Crema, 40x50 cm., Plastico"
           }
         ]
       },
@@ -5249,40 +5249,40 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07953",
-            "description": "Marco PB-73, 10x15 cm., Plastico"
+            "description": "Marco PB-73, Negro, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07954",
-            "description": "Marco PB-73, 15x20 cm., Plastico"
+            "description": "Marco PB-73, Negro, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07955",
-            "description": "Marco PB-73, 20x30 cm., Plastico"
+            "description": "Marco PB-73, Negro, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07956",
-            "description": "Marco PB-73, 30x40 cm., Plastico"
+            "description": "Marco PB-73, Negro, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 50,
             "codigo": "07957",
-            "description": "Marco PB-73, 40x50 cm., Plastico"
+            "description": "Marco PB-73, Negro, 40x50 cm., Plastico"
           }
         ]
       },
       {
-        "color": "Humo",
+        "color": "Blanco",
         "image": "/assets/img/product/fashion/MarcoPB73_4.jpg",
         "size": [
           {
@@ -5290,35 +5290,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07953",
-            "description": "Marco PB-73, 10x15 cm., Plastico"
+            "description": "Marco PB-73, Blanco, 10x15 cm., Plastico"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07954",
-            "description": "Marco PB-73, 15x20 cm., Plastico"
+            "description": "Marco PB-73, Blanco, 15x20 cm., Plastico"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 40,
             "codigo": "07955",
-            "description": "Marco PB-73, 20x30 cm., Plastico"
+            "description": "Marco PB-73, Blanco, 20x30 cm., Plastico"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 50,
             "codigo": "07956",
-            "description": "Marco PB-73, 30x40 cm., Plastico"
+            "description": "Marco PB-73, Blanco, 30x40 cm., Plastico"
           },
           {
             "name": "40x50",
             "stock": 9999,
             "price": 50,
             "codigo": "07957",
-            "description": "Marco PB-73, 40x50 cm., Plastico"
+            "description": "Marco PB-73, Blanco, 40x50 cm., Plastico"
           }
         ]
       }
@@ -5410,35 +5410,35 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07664",
-            "description": "Marco TH+7-6022, 15x20 cm., MDF"
+            "description": "Marco TH+7-6022, Marron, 15x20 cm., MDF"
           },
           {
             "name": "13x18",
             "stock": 9999,
             "price": 18,
             "codigo": "07665",
-            "description": "Marco TH+7-6022, 21X29 cm., MDF"
+            "description": "Marco TH+7-6022, Marron, 21X29 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07666",
-            "description": "Marco TH+7-6022, 30x40 cm., MDF"
+            "description": "Marco TH+7-6022, Marron, 30x40 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07667",
-            "description": "Marco TH+7-6022, 30x40 cm., MDF"
+            "description": "Marco TH+7-6022, Marron, 30x40 cm., MDF"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30,
             "codigo": "07668",
-            "description": "Marco TH+7-6022, 30x40 cm., MDF"
+            "description": "Marco TH+7-6022, Marron, 30x40 cm., MDF"
           }
         ]
       }
@@ -5475,42 +5475,42 @@
             "stock": 9999,
             "price": 15,
             "codigo": "07670",
-            "description": "Marco TH6024, 10x15 cm., MDF"
+            "description": "Marco TH6024, Gris, 10x15 cm., MDF"
           },
           {
             "name": "13x18",
             "stock": 9999,
             "price": 17,
             "codigo": "07671",
-            "description": "Marco TH6024, 13x18 cm., MDF"
+            "description": "Marco TH6024, Gris, 13x18 cm., MDF"
           },
           {
             "name": "15x20",
             "stock": 9999,
             "price": 20,
             "codigo": "07672",
-            "description": "Marco TH6024, 15x20 cm., MDF"
+            "description": "Marco TH6024, Gris, 15x20 cm., MDF"
           },
           {
             "name": "20x25",
             "stock": 9999,
             "price": 25,
             "codigo": "07673",
-            "description": "Marco TH6024, 20x25 cm., MDF"
+            "description": "Marco TH6024, Gris, 20x25 cm., MDF"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30,
             "codigo": "07674",
-            "description": "Marco TH6024, 20X30 cm., MDF"
+            "description": "Marco TH6024, Gris, 20X30 cm., MDF"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 40,
             "codigo": "07675",
-            "description": "Marco TH6024, 30x40 cm., MDF"
+            "description": "Marco TH6024, Gris, 30x40 cm., MDF"
           }
         ]
       }
@@ -5548,21 +5548,21 @@
             "stock": 9999,
             "price": 20,
             "codigo": "07843",
-            "description": "Marco TH-6048, 15x20 cm., MDF"
+            "description": "Marco TH-6048, Gris, 15x20 cm., MDF"
           },
           {
             "name": "20x30",
             "stock": 9999,
             "price": 30,
             "codigo": "07845",
-            "description": "Marco TH-6048, 20x30 cm., MDF"
+            "description": "Marco TH-6048, Gris, 20x30 cm., MDF"
           },
           {
             "name": "30x40",
             "stock": 9999,
             "price": 40,
             "codigo": "07678",
-            "description": "Marco TH-6048, 30x40 cm., MDF"
+            "description": "Marco TH-6048, Gris, 30x40 cm., MDF"
           }
         ]
       }
