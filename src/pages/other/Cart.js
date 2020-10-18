@@ -70,6 +70,7 @@ const Cart = ({
                         </thead>
                         <tbody>
                           {cartItems.map((cartItem, key) => {
+                            console.log(cartItem)
                             const variation = cartItem.variation.find( item => item.color.toLowerCase() === cartItem.selectedProductColor.toLowerCase());
                             const image = variation.image || cartItem.image[0];
                             const discountedPrice = getDiscountPrice(
@@ -243,65 +244,6 @@ const Cart = ({
                 </div>
 
                 <div className="row">
-                  <div className="col-lg-4 col-md-6">
-                    <div className="cart-tax">
-                      <div className="title-wrap">
-                        <h4 className="cart-bottom-title section-bg-gray">
-                        Envío e impuesto estimado
-                        </h4>
-                      </div>
-                      <div className="tax-wrapper">
-                        <p>
-                        Ingrese su destino para obtener un precio estimado de envío.
-                        </p>
-                        <div className="tax-select-wrapper">
-                          <div className="tax-select">
-                            <label>* Pais</label>
-                            <select className="email s-email s-wid">
-                              <option>Perú</option>
-                            </select>
-                          </div>
-                          <div className="tax-select">
-                            <label>* Ciudad</label>
-                            <select className="email s-email s-wid">
-                              <option>Lima</option>
-                              <option>Ica</option>
-                              <option>Trujillo</option>
-                              <option>Arequipa</option>
-                              <option>Cusco</option>
-                            </select>
-                          </div>
-                          <div className="tax-select">
-                            <label>Codigo Postal</label>
-                            <input type="text" />
-                          </div>
-                          <button className="cart-btn-2" type="submit">
-                            Obten un estimado
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4 col-md-6">
-                    <div className="discount-code-wrapper">
-                      <div className="title-wrap">
-                        <h4 className="cart-bottom-title section-bg-gray">
-                          Usar codigo de cupon
-                        </h4>
-                      </div>
-                      <div className="discount-code">
-                        <p>Ingresa tu cupon si tienes uno.</p>
-                        <form>
-                          <input type="text" required name="name" />
-                          <button className="cart-btn-2" type="submit">
-                            Aplicar Cupon
-                          </button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-
                   <div className="col-lg-4 col-md-12">
                     <div className="grand-totall">
                       <div className="title-wrap">

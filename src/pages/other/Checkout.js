@@ -58,7 +58,7 @@ function sendData(dataUser = initialData,items=[],deleteAllFromCart= ()=>{},addT
 			},
 			body: JSON.stringify(dataUser)
 		}
-		fetch('https://acquired-device-286721.uc.r.appspot.com/api/shop/checkout',options).then(result=>result.json())
+		fetch('https://fotoplus.pe/api/shop/checkout',options).then(result=>result.json())
 		.then(response=>{
 			if(response.status){
 				alert("Productos enviados correctamente. Nos pondremos en contacto.");
@@ -162,12 +162,6 @@ const Checkout = ({ location, cartItems, currency,deleteAllFromCart }) => {
                         			<div className="billing-info mb-20">
 										<label>Departamento</label>
 										<input type="text" name='apartament' onChange={(e)=>{changeInformation(e,setDataUser,dataUser)}}/>
-                        			</div>
-                      			</div>
-                      			<div className="col-lg-6 col-md-6">
-                        			<div className="billing-info mb-20">
-										<label>Codigo postal</label>
-										<input type="text" name='postalCode' onChange={(e)=>{changeInformation(e,setDataUser,dataUser)}}/>
                         			</div>
                       			</div>
                       			<div className="col-lg-6 col-md-6">
