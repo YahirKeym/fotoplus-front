@@ -35,7 +35,7 @@ const ProductImageDescription = ({
   const [colorSelect, setColorSelect] = useState('');
   const [imageSelected,setImageSelected] = useState(''); 
   const discountedPrice = getDiscountPrice(realPrice, product.discount);
-  const finalProductPrice = +(realPrice * currency.currencyRate).toFixed(2);
+  const finalProductPrice = realPrice;
   const finalDiscountedPrice = +(
     discountedPrice * currency.currencyRate
   ).toFixed(2);
